@@ -2,6 +2,7 @@ body {
   min-width: 1100px;
   margin: 0 auto;
   padding: 0;
+  font-family: 'Raleway', 'Arial', sans-serif;
   background-color: #fff;
 }
 
@@ -25,14 +26,13 @@ body {
 .header__menu__links-list {
   display: flex;
   flex-direction: row;
-  gap: 32px;
+  gap: 33px;
   list-style-type: circle;
 }
 
 .header-footer__link {
   border-bottom: 1px solid #000;
   text-decoration: none;
-  list-style-type: circle;
 }
 
 .header-footer__menu__links-item-active .header-footer__link {
@@ -54,12 +54,10 @@ body {
 
 .header__address {
   grid-column: 3/4;
-  padding-left: 184px;
+  padding-left: 186px;
 }
 
 .address__list {
-  display: flex;
-  flex-direction: column;
   font-style: normal;
   list-style: none;
 }
@@ -98,9 +96,6 @@ body {
   letter-spacing: 30px;
 }
 
-.accent-text {
-  display: block;
-}
 
 .aligned-text {
   line-height: 115%;
@@ -108,7 +103,6 @@ body {
 
 .aligned-text_center {
   justify-self: center;
-  padding-right: 58px;
 }
 
 .aligned-text_right {
@@ -128,7 +122,6 @@ body {
   z-index: 1;
   display: flex;
   flex-direction: row;
-
   align-items: center;
   padding-bottom: 51px;
 }
